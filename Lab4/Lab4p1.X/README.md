@@ -1,0 +1,2 @@
+In the first part of this lab we learn how to use LCD screens. We use a header and .c file to be able to do things such as configure the screen and write to it. In this program we create a counter from 0-15 and once it hits its max value, it 
+resets to 0. Once counter is reset to 0, we have another variable called round that is incremented. These two values are displayed on the LCD and updated accordingly.
