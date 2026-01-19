@@ -1,2 +1,2 @@
-In this program we use 2 seven segment displays to make a counter from 0-60. We use one counter from 0-10, and once it hits 10 it resets to 0 and increments the next counter. This is done till the second counter hits 6, once it hits 6 it is 
-reset to 0. We use an array of hexadeximal values so that the counters can send those sets of pins high to display the proper number on the seven-segment display.
+In this program I use 2 seven segment displays to make a counter from 0-60. I use one counter from 0-10, and once it hits 10 it resets to 0 and increments the next counter. This is done till the second counter hits 6, once it hits 6 it is 
+reset to 0. I use an array of hexadeximal values so that the counters can send those sets of pins high to display the proper number on the seven-segment display.
