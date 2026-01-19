@@ -1,1 +1,3 @@
-start here
+In this project we make a system that can detect obstacles using an ultrasonic sensor. We use an LCD screen to display if something is caught in our sensor or if it is clear. We also show how far the nearest obstacle is. During this program we learned how to use timers. We made sure to clear the timer and timer flag so that we know it is fresh and will operate as intended. 
+To use the ultrasonic sensor we begin by making its TRIG pin high for 10us, then we get pulses of ultrasonic waves sent out and ECHO pin goes high. Then once these waves return and hit the sensor the ECHO pin goes low. We get the distance by using the time that ECHO was high. That is where the timers come in to play. 
+We set our timer as soon as ECHO goes high and once ECHO is low, our timer stops. Using this time we get a distance in centimeters. If aan object is within 50cm, we display "TARGET DETECTED" on our LCD screen
