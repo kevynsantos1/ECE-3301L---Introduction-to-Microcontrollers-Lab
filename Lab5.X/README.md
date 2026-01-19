@@ -1,2 +1,2 @@
-In this lab we learned how to use ADC and Interrupts. In this program, we use a 10k ohm potentiometer to show how our ADC pin works. We set this ADC reading up so that the higher the value, the more LEDS light up. We first setup our 
-input/output ports. Then we have to setup our ADC pin using the proper registers. Then we configure the ADC interrupt. In the interrupt we set different sets of LEDS to turn on for different voltage ratings.
+In this lab I learned how to use ADC and Interrupts. In this program, a 10k ohm potentiometer is used to show how our ADC pin works. This ADC reading is set up so that the higher the value, the more LEDS light up. First
+the input/output ports are setup. Then I setup the ADC pin using the proper registers. Then configure the ADC interrupt. In the interrupt, different sets of LEDS turn on for different voltage ratings.
