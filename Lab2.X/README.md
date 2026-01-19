@@ -1,3 +1,3 @@
-This is a simple project where we make digital dice. With the press of a button they roll and give us two random numbers in the configuration of a dice. First, PORTC and PORTB are configured as outputs and PORTB0 is configured as input. The
+This is a simple project where I make digital dice. With the press of a button they roll and give two random numbers in the configuration of a dice. First, PORTC and PORTB are configured as outputs and PORTB0 is configured as input. The
 program constantly checks the state of the button to see if we have rolled or not. When the button is pressed, two pseudorandom numbers are generated and then used to configure which pins are sent high for the LEDS to display the proper visual
 of a dice and the number rolled. The LEDS stay lit for three seconds, then turn off to indicate you can roll again. 
