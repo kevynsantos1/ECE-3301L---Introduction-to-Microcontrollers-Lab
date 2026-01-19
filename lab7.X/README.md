@@ -1,0 +1,3 @@
+In this lab I learned how to use PWM. The purpose of the program is to make a motor spin at different speeds in increments with the push of a button. I started by enabling PWM on the correct pin for the correct timer. Then, I configured the CCP module to make sure it is for PWM operation.
+Lastly, I setup the timer and period register for the defined PWM frequency of our motor. Then we write the duty cycles for 0%, 20%, 40%, 60%, 80%, and 100%. With all this I made it to where at every push of a button the speed of the motor would go up 20%. Once it hit 100% if the user pressed
+the button again it would turn off and start over.
